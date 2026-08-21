@@ -1,0 +1,75 @@
+Understanding TypeErrors in Python
+1. Where do TypeErrors fit in Python's Hierarchy?In Python, all errors belong to a massive family tree called the Exception Hierarchy.
+Exception is the main parent category.
+UnicodeDecodeError falls under the ValueError family (the value of the data is invalid for translation).
+TypeError stands as its own independent, major category.
+
+BaseException
+ └── Exception (The Main Parent)
+      ├── TypeError          <-- You hit this! (Wrong data types or invalid arguments)
+      └── ValueError
+           └── UnicodeDecodeError <-- You hit this first! (Bad byte values)
+
+2. What exactly is a TypeError?A TypeError happens when you ask Python to perform an operation on an object that is physically incapable of doing it.Example 1 (Data Type mismatch): Trying to add a word to a number: 'hello' + 5.Example 2 (Unexpected Keyword Argument): Calling a function but passing a settings button (parameter) that the function’s creator never built. This is what happened when we ran pd.read_csv(..., errors='ignore').3. Why engine='python' caused a second failureWhen you tried engine='python' and it still didn't work, you ran into a conflict between library versions. The default fast parser (C engine) doesn't accept the errors argument at all. While switching to the Python engine tells Pandas to listen for text errors, certain older versions of Pandas still reject passing the errors keyword argument directly through the read_csv() function.
+
+
+
+'''
+To understand these errors fundamentally, we have to look past the code and see exactly how the computer’s physical hardware (memory transistors) interacts with your software.
+1. The Fundamental Cause of UnicodeDecodeError
+At the lowest physical level, a computer grid can only store switches that are either ON (1) or OFF (0).
+The Problem: How do we turn numbers into letters?A CSV file is just a massive string of these numbers stored on your hard drive. When you open a file, you must tell Python which Encoding Dictionary to use to translate those numbers into human text.
+[ Hard Drive Bytes ] ──( Using a Dictionary )──> [ Human Text on Screen ]
+
+The Crash:When you hit UnicodeDecodeError: 'charmap' codec can't decode byte 0x81, the computer read the number 129 (which is 0x81 in hex code) from your hard drive.Python looked inside the default Windows cp1252 dictionary for index 129. In that specific dictionary, index 129 is completely blank—it is undefined. Python panics because you asked it to display a character that fundamentally does not exist in the dictionary it was given.Why latin-1 fixed it:The latin-1 dictionary is unique. It has a specific character assigned to every single number from 0 to 255. Because there are no blank spots, it is physically impossible for it to encounter an "undefined" byte. It will always successfully translate the data into something, even if that something is an invisible character.
+'''
+
+2. The Fundamental Cause of TypeError
+To understand a TypeError, you need to understand how functions are built in computer memory.
+A function is like a physical kitchen appliance—let’s say a Blender.
+The creator of the blender designed specific slots (arguments) to accept specific inputs (like fruits).
+Scenario A: Passing the wrong input typeIf you drop a metal wrench into a blender, the machine will jam and break. In Python, if a function expects a number, and you give it a text string: "Hello" + 5
+Python stops instantly and throws a TypeError. It is telling you: "The fundamental nature (Type) of this object is incompatible with the operation you are forcing it to do."
+Scenario B: Passing an input that doesn't existWhat happened in your code was slightly different: pd.read_csv('file.csv', errors='ignore')
+You didn't just give it the wrong input type; you tried to plug a wire into a button that was never built onto the machine. The engineers who wrote the fast C-engine version of read_csv() did not build a slot named errors. When Python executed the code, it searched the function's memory blueprint for a parameter named errors, found absolutely nothing, and threw:TypeError: read_csv() got an unexpected keyword argument 'errors'
+
+# Diagnostic script to locate the broken byte
+line_number = 1
+'''
+try:
+    with open('C:\programming files\projects\\netflix_mov_tv\\netflix_titles.csv', mode='r', encoding='cp1252') as file:
+        for line in file:
+            line_number += 1
+except UnicodeDecodeError as error:
+    print(f"💥 Error caught at file row number: {line_number}")
+    print(f"📋 Exact error details: {error}")
+'''
+'''with open('C:\programming files\projects\\netflix_mov_tv\\netflix_titles.csv', mode='rb') as file:
+    lines = file.readlines()
+    # Python lists start at 0, so row 103 is index 102
+    print(lines[102]) '''
+
+'''# Fixes your UnicodeDecodeError by explicitly setting UTF-8 encoding
+df = pd.read_csv('C:\programming files\projects\\netflix_mov_tv\\netflix_titles.csv', encoding='utf-8')
+
+# Check if it loaded correctly by viewing the first 5 rows
+print("Data loaded successfully! Here is a preview:")
+print(df.head())'''
+
+
+# in titanic.py
+❌ Error 1: TypeError: Cannot setitem on a Categorical...What causes it: You tried to fill missing values (.fillna()) or insert data into a Categorical column (category dtype) using a value that pandas does not recognize. Categorical columns act like a strict dropdown list; you cannot use a word that is not already on that list.The Fix: You must explicitly add your new value (like 'Unknown') to the allowed categories list before filling the missing data.Code Example:python# Add the category to the dropdown list first, then fill
+df['deck'] = df['deck'].cat.add_categories('Unknown').fillna('Unknown')
+Use code with caution.
+
+❌ Error 2: AttributeError: Can only use .cat accessor with a 'category' dtype.What causes it: You tried to use a categorical tool like .cat.add_categories() on a column that pandas actually sees as a standard text string (object dtype) or a number. The .cat toolbox only exists on true category columns.The Fix: Check the column's data type (dtype) before applying categorical operations, or use an if statement to apply it dynamically.Code Example:python# Check if it's a category type dynamically
+if df['col'].dtype.name == 'category':
+    df['col'] = df['col'].cat.add_categories('Unknown').fillna('Unknown')
+else:
+    df['col'] = df['col'].fillna('Unknown') # Safe for normal text columns
+💡 Pro-Tip for Practice: If you hate managing category lists, you can instantly turn all categorical columns into normal text columns using df = df.astype(object) right after loading your dataset.
+
+
+for Debugging Whenever you see an error from now on, categorize it into one of these two basic mental boxes:
+ValueError / DecodeError: The machinery (the function) is perfectly fine and has the right slots, but the raw data you fed inside it is corrupted, malformed, or unreadable.
+TypeError: The data itself might be fine, but your code syntax or structure is wrong. You are asking a python object to do something that violates its fundamental architectural design.

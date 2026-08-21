@@ -1,0 +1,64 @@
+Seaborn is a data visualization library built on top of matplotlib.
+
+# Different color_palettes;
+sns.color_palette('deep') or sns.color_palette(), # default
+sns.color_palette('Set1')
+sns.color_palette('Set2')
+sns.color_palette('Set3')
+sns.color_palette('Paired')
+sns.color_palette('hls', 3) # (hls, number of colours)
+sns.color_palette('rocket', as_cm=True) # as_cm=True, shows the colours in a spectrum rather than them being distinct colours.
+
+In Seaborn, functions are divided into Figure-level functions, which manage their own matplotlib figure and can create multi-plot grids {Controls the entire image. Creates multi-plot grids automatically. Cannot be mixed with standard matplotlib subplots}, 
+and Axes-level functions, which draw data onto a single specific matplotlib axis {Draws a single chart. Fits inside any custom matplotlib layout. Uses the ax= argument}.
+ 
+Figure-level;
+    relplot, displot, catplot, lmplot, jointplot, pairplot, clustermap
+Axis-level;
+    scatterplot, lineplot, histplot, kdeplot, ecdfplot, rugplot, stripplot, swarmplot, boxplot, boxenplot, violinplot, barplot, countplot, pointplot, regplot, heatmap
+
+1. Relational Data (Finding Trends & Patterns)
+    - relplot (Figure){relational plot}: The master grid controller. Use this when you want to compare patterns across different categories side-by-side using the col or row parameters.
+    
+    - scatterplot (Axes): Plots individual data points. Ideal for showing if two continuous numeric variables are related (e.g., height vs. weight).
+    
+    -lineplot (Axes): Connects data points chronologically or sequentially. Best for time-series data (e.g., stock prices over months) because it automatically calculates and shades error bands for repeating data.
+    
+2. Distribution Data (Understanding Spread & Frequency)
+    - displot (Figure): The master controller for exploring how your data is distributed across different groups or subplots.
+    
+    -histplot (Axes): A classic histogram. It groups continuous numbers into bins and counts them, showing you where your data clusters and where outliers lie.
+    
+    -kdeplot (Axes) {Kernel Density Estimate Plot}: Smooths out a histogram into a continuous wave or curve. It represents probability density, making it easy to see the "shape" of your data without clunky bin edges.
+    
+    -ecdfplot (Axes) {Empirical Cumulative Distribution Function Plot}: Plots data from 0% to 100%. It tells you exactly what percentage of your data falls below a specific value (e.g., "80% of employees earn less than $50k").
+    
+    -rugplot (Axes): Adds tiny, marginal ticks (like a barcode) along the bottom edge of an existing chart to show exactly where individual data points sit.
+    
+3. Categorical Data (Comparing Groups)
+    -catplot (Figure) {Categorical Plot}: The master controller for splitting categorical visualizations into sub-grids.
+    
+    stripplot / swarmplot (Axes): Scatter plots for categories. stripplot stacks dots on a categorical line, while swarmplot spreads them out like a swarm of bees so no dots overlap, showing exact data density.
+    
+    -boxplot / boxenplot (Axes) {Box-Enhanced Plot}: boxplot shows a five-number summary (median, quartiles, and outliers) inside a box with whiskers. boxenplot (Letter-Value plot) is an advanced version that shows even more precise quantile boxes for massive datasets.
+    
+    -violinplot (Axes): Combines a box plot with a mini smooth density curve on both sides. It visually displays both summary statistics and the thickness/shape of the distribution.
+    
+    -barplot / countplot (Axes) : barplot calculates the average (mean) value of a category and draws it as a bar with an error line. countplot acts like a categorical histogram, simply counting how many times a category appears.
+    
+    -pointplot (Axes): Uses dots to show average values across categories and connects them with lines, making it easy to track how group averages rise or fall.
+    
+4. Regression Data (Statistical Modeling)
+    -lmplot (Figure) {Linear Model Plot}: Fits and plots a linear regression line across a grid of subplots to see if a trend holds true for different categories.
+    
+    -regplot (Axes) {Regression Plot}: A simple scatter plot with a calculated mathematically fit straight line (and a shaded confidence interval trend) running through it to show direction and correlation.
+    
+5. Multi-Plot Matrices (Complex Overview Systems)
+    -jointplot (Figure): Creates a central scatter or density plot to show how two variables interact, while simultaneously placing individual histograms on the top and right margins.
+    
+    -pairplot (Figure): The ultimate data exploration matrix. It takes every single numeric column in your dataset and plots it against every other numeric column in a giant grid.
+    
+    -heatmap (Axes): A grid of colored blocks where the intensity of the color represents a number (like a correlation table).
+    
+    -clustermap (Figure) {Clustered Map}: Takes a heatmap, uses machine learning algorithms to group similar rows and columns together, and draws a family-tree diagram (dendrogram) along the edges to show relationships.
+

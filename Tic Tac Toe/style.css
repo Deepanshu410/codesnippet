@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    color: white;
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.winImg {
+    width: 0vw;
+}
+.hrClass{
+    background-color: rgba(76, 187, 187, 0.422);
+    height: 160px;
+    width: 2.5px;
+}
+.turn {
+    margin: 23px;
+    padding: 8px;
+    font-size: 28px;
+}
+
+.gameCont {
+    display: flex;
+    justify-content: center;
+}
+
+.Game {
+    display: grid;
+    grid-template-columns: repeat(3, 29vh);
+    grid-template-rows: repeat(3, 13vw);
+    position: relative;
+}
+
+.box {
+    font-size: 11vh;
+    font-family: 'Nunito', sans-serif;
+    border: 1.7px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover {
+    background-color: rgba(166, 227, 227, 0.29);
+    cursor: pointer;
+}
+
+.bord_t {
+    border-top: 0px;
+}
+
+.bord_r {
+    border-right: 0px;
+}
+
+.bord_l {
+    border-left: 0px;
+}
+
+.bord_b {
+    border-bottom: 0px;
+}
+
+.gInfo {
+    font-family: 'Rajdhani', sans-serif;
+    float: left;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 89px;
+    padding: 2px;
+}
+
+.line{
+    background-color: black;
+    width: 0;
+    height: 3px;
+    position: absolute;
+    transition: width 1s ease-in-out;
+}
+
+#reset {
+    margin: 73px;
+    padding: 8px;
+    background: #f3e7f9;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Baloo Bhaina 2';
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 950px)
+{
+    .gameContainer{
+        flex-wrap: wrap;
+    }
+    .gameInfo{
+        margin-top: 34px;
+    }
+    .gameInfo h1{
+        font-size: 1.5rem;
+    }
+    .container { 
+        grid-template-rows: repeat(3, 20vw);
+        grid-template-columns: repeat(3, 20vw);
+    }
+}

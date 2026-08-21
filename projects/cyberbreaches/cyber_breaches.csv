@@ -1,0 +1,201 @@
+Sector,Breach_Method,Records_Stolen_Thousands
+Healthcare,Insider Threat,485
+Finance,Insider Threat,322
+Healthcare,Phishing,266
+Healthcare,Malware,424
+Healthcare,Phishing,481
+Retail,Ransomware,139
+Healthcare,Phishing,180
+Government,Malware,126
+Government,Ransomware,359
+Healthcare,Phishing,413
+Healthcare,Malware,356
+Healthcare,Phishing,194
+Finance,Ransomware,156
+Retail,Phishing,148
+Retail,Phishing,278
+Tech,Ransomware,128
+Healthcare,Phishing,137
+Government,Phishing,84
+Tech,Phishing,420
+Healthcare,Phishing,184
+Healthcare,Phishing,427
+Healthcare,nan,142
+Retail,Malware,205
+Tech,nan,366
+Tech,Ransomware,166
+Finance,Phishing,144
+Healthcare,Ransomware,301
+Finance,Ransomware,187
+Finance,Ransomware,18
+Retail,Ransomware,17
+Retail,Phishing,86
+Tech,Phishing,473
+Tech,Ransomware,385
+Healthcare,Phishing,59
+Retail,Phishing,435
+Healthcare,Ransomware,209
+Tech,Phishing,57
+Tech,Insider Threat,31
+Tech,Phishing,414
+Finance,Phishing,72
+Tech,Ransomware,367
+Government,Ransomware,412
+Government,Malware,174
+Healthcare,Insider Threat,346
+Retail,Ransomware,292
+Government,Phishing,456
+Tech,Malware,429
+Finance,Ransomware,206
+Retail,Malware,174
+Healthcare,Phishing,232
+Healthcare,Phishing,74
+Tech,Phishing,200
+Healthcare,Ransomware,303
+Healthcare,nan,217
+Government,Insider Threat,358
+Finance,Malware,300
+Finance,Insider Threat,105
+Tech,Phishing,444
+Healthcare,Malware,486
+Finance,Malware,342
+Finance,Phishing,44
+Finance,Phishing,177
+Healthcare,Phishing,429
+Healthcare,Phishing,434
+Retail,Phishing,499
+Tech,Phishing,280
+Healthcare,Ransomware,286
+Retail,Insider Threat,274
+Retail,Phishing,152
+Healthcare,Phishing,348
+Tech,Malware,125
+Retail,Ransomware,435
+Finance,Ransomware,39
+Tech,Insider Threat,418
+Government,Phishing,112
+Retail,Phishing,352
+Government,Phishing,44
+Healthcare,Phishing,324
+Finance,Ransomware,79
+Finance,Ransomware,455
+Finance,Ransomware,119
+Tech,Ransomware,66
+Healthcare,Phishing,136
+Finance,Ransomware,490
+Government,Phishing,90
+Government,Ransomware,439
+Tech,Ransomware,267
+Government,Phishing,28
+Healthcare,Phishing,264
+Tech,Malware,100
+Tech,Phishing,337
+Tech,Ransomware,41
+Healthcare,Malware,367
+Tech,Ransomware,63
+Healthcare,Insider Threat,406
+Healthcare,Ransomware,226
+Healthcare,Phishing,365
+Healthcare,Ransomware,483
+Retail,Phishing,454
+Healthcare,Malware,99
+Finance,Ransomware,231
+Healthcare,Phishing,381
+Healthcare,Ransomware,115
+Healthcare,Malware,177
+Finance,Insider Threat,173
+Tech,Phishing,328
+Retail,Phishing,346
+Finance,Malware,90
+Finance,Insider Threat,92
+Retail,Phishing,282
+Tech,Phishing,107
+Tech,Phishing,113
+Healthcare,Phishing,148
+Tech,Ransomware,426
+Healthcare,Malware,206
+Finance,Ransomware,406
+Healthcare,Phishing,69
+Government,Ransomware,322
+Finance,Insider Threat,264
+Retail,Phishing,251
+Tech,Phishing,25
+Finance,Phishing,185
+Healthcare,Insider Threat,477
+Finance,Phishing,176
+Finance,Phishing,477
+Finance,Phishing,160
+Finance,Ransomware,115
+Government,Ransomware,205
+Retail,Ransomware,446
+Finance,Ransomware,221
+Healthcare,Malware,203
+Healthcare,Malware,494
+Government,Insider Threat,44
+Healthcare,Phishing,373
+Finance,Insider Threat,292
+Healthcare,Phishing,116
+Retail,Phishing,396
+Tech,Insider Threat,106
+Healthcare,Ransomware,96
+Healthcare,Ransomware,169
+Healthcare,Phishing,395
+Healthcare,Insider Threat,413
+Healthcare,nan,426
+Tech,Malware,13
+Government,Phishing,49
+Finance,Phishing,150
+Tech,Malware,432
+Government,Phishing,335
+Finance,Malware,418
+Retail,Malware,317
+Tech,Phishing,296
+Government,Phishing,370
+Finance,Phishing,357
+Finance,Phishing,138
+Tech,Ransomware,66
+Retail,Phishing,325
+Finance,Phishing,262
+Retail,Insider Threat,426
+Tech,Phishing,371
+Retail,Ransomware,468
+Healthcare,Phishing,474
+Finance,Phishing,387
+Healthcare,Ransomware,372
+Healthcare,Phishing,428
+Healthcare,Phishing,420
+Finance,Phishing,57
+Tech,Phishing,375
+Finance,Insider Threat,47
+Tech,Malware,120
+Healthcare,Ransomware,408
+Finance,Ransomware,472
+Healthcare,Malware,236
+Healthcare,Ransomware,360
+Government,Insider Threat,211
+Finance,Malware,8
+Tech,Phishing,370
+Healthcare,Malware,477
+Tech,Ransomware,217
+Tech,Ransomware,64
+Finance,Phishing,421
+Tech,Ransomware,358
+Healthcare,Phishing,400
+Healthcare,Phishing,275
+Tech,Phishing,233
+Finance,Malware,156
+Healthcare,Ransomware,222
+Finance,Insider Threat,319
+Finance,Insider Threat,430
+Retail,Phishing,172
+Retail,Ransomware,305
+Finance,Insider Threat,441
+Finance,Ransomware,256
+Finance,Malware,390
+Finance,Phishing,335
+Government,Ransomware,276
+Finance,Malware,330
+Healthcare,Malware,106
+Finance,Phishing,20
+Healthcare,Phishing,425
+Retail,Insider Threat,279

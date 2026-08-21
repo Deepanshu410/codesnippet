@@ -1,0 +1,78 @@
+1. Define Bits and Bytes
+Bit: A single switch inside a computer.
+States: It can only be off (\(0\)) or on (\(1\)).
+Byte: A group of 8 of these switches combined.
+Purpose: Working with 8 switches together allows computers to form larger combinations.
+
+2. The Combination Lock Rule (Why 0 to 255?)
+Think of a byte like a lock with 8 wheels.
+Each wheel only has two numbers: 0 and 1. 
+Every time you add a wheel, the total combinations double:
+1 bit = 2 shapes
+2 bits = 4 shapes
+3 bits = 8 shapes
+...
+8 bits = 256 unique shapes
+Because computers start counting at 0, those 256 shapes represent the numbers from 0 to 255.
+
+3. How to Read the Byte: Imagine you have 8 specific dollar bills in your wallet. Each bill is unique and has a different value stamped on it:A $128 bill, A $64 bill, A $32 bill, A $16 bill, An $8 bill, A $4 bill, A $2 bill, A $1 bill
+A byte is just a checklist telling you which bills you are allowed to use to pay for something.
+1 means: Use this bill.
+0 means: Leave this bill alone.
+Let's do 3 quick examples together:
+- Example A: The checklist is 00000001
+Look at the checklist from left to right. The first seven positions are 0, so you leave those big bills alone. The very last position is 1.
+You only take out the $1 bill.
+Total value = 1
+- Example B: The checklist is 00000011
+The first six positions are 0. The last two positions are 1. You take out the $2 bill and the $1 bill.
+Total value = 2 + 1 = 3.
+- Example C: The checklist is 10000001The first position is 1, the middle ones are all 0, and the last position is 1.You take out the $128 bill and the $1 bill.
+Total value = 128 + 1 = 129
+
+4. How Computers Read Letters
+1. The Secrets Code (ASCII) 
+Computers cannot see letters; they only see the byte numbers (0 to 255). Humans made a master cheat sheet called ASCII to match numbers to letters.
+2. Capital Letter Codes 65 = A 66 = B 67 = C... up to 90 = Z 
+3. Other Characters Lowercase letters have their own numbers (a = 97).The Spacebar is a number (  = 32).Punctuation marks like . or ? also have unique numbers.
+Example: Typing "CAB" sends three bytes to the computer: 67, 65, and 66.
+
+5. How Emojis Work (The Unicode Upgrade)
+Problem: a single byte can only count up to 255. Between capital letters, lowercase letters, numbers, and punctuation, we quickly run out of room. There are no numbers left over for thousands of world languages and definitely no room for emojis! 
+To fix this, smart engineers upgraded the system and created Unicode.
+1. Combining Bytes Together Instead of using just one single byte (0 to 255) for a character, computers can glue 2, 3, or 4 bytes together into one massive chain. 1 Byte = 256 options, 2 Bytes = 65,536 options, 4 Bytes = Over 4 Billion options!
+2. Emojis Are Just Massive Numbers With 4 billion options, there is plenty of room for emojis. Every emoji has its own official giant number code assigned by a global committee:😂 (Laughing Face) = The number 128,514, 🚀 (Rocket) = The number 128,640, 🍕 (Pizza) = The number 127,829. When you send a text with a 🍕, your phone actually sends a specific 4-byte number chain. The receiving phone reads that number and swaps it for the pizza picture!
+
+        Your computer glues those four numbers together using a system called '''''''UTF-8''''''. It decodes the whole chain into the master number 127,829, looks at its image list, and draws a fresh slice of pizza!
+
+6. How Numbers Create Colours (RGB)
+Every computer screen is made of millions of tiny square dots called pixels. Inside every single pixel, there are three microscopic colored lights: Red, Green, and Blue (RGB).
+To display a specific color, the computer assigns exactly 3 bytes of data to each pixel on your screen:
+Byte 1: Controls the brightness of the Red light (0 to 255)
+Byte 2: Controls the brightness of the Green light (0 to 255)
+Byte 3: Controls the brightness of the Blue light (0 to 255)
+By mixing these three numbers together at different brightness levels, your screen can create over 16 million unique colors!
+Example Color Mixtures: Pure Black: 0, 0, 0 (All lights are completely turned off).
+Pure White: 255, 255, 255 (All lights are shining at maximum brightness).
+
+7. How Digital Images Work
+1. The Pixel Grid; Digital images are grids of millions of tiny colored square dots called pixels. The computer reads the grid line-by-line, from left to right, top to bottom.
+2. The File SizeEvery pixel needs 3 bytes (Red, Green, Blue) to know its exact color. More pixels mean a sharper image, but it also means a much larger file size.
+3. Compression Formats; PNG uses mathematical shortcuts to shrink files without reducing quality. JPEG shrinks files dramatically by quietly deleting tiny color details that humans can't see anyway. BMP (Uncompressed): Saves every single pixel's bytes exactly as they are. Files are massive.
+
+8. Videos and Processors1. Digital VideoA video is a fast slideshow of images called frames.FPS (Frames Per Second) tells you how many images flash by in one second (usually 24, 30, or 60).Video files stay small by only updating the pixels that actually move on screen.2. The CPU (The Brain)The CPU runs a non-stop loop: Fetch the byte, Decode what it wants, and Execute the action.Bytes can be data (colors/letters) or commands (add/subtract).Gigahertz (GHz) measures how many billions of bytes the processor can handle in one second.
+
+
+
+ The Dummy Variable Trap (Why drop_first=True Matters)When you use pd.get_dummies(), it turns categories into columns of 0s and 1s. If you have three membership types (Basic, Premium, VIP), it creates three columns.If you keep all three columns, you introduce perfect multicollinearity. This is a fancy data science term meaning that one column can be perfectly predicted by the other columns.Look at this table:BasicPremiumVIP100010If Premium is 0 and VIP is 0, then Basic must be 1. There is no other option.Why is this a trap?Machine learning models (like Linear or Logistic Regression) get highly confused by redundant data. They assign mathematically unstable weights to these columns because they are duplicating information.By setting drop_first=True, you dropped the Basic column.If a row shows Premium=0 and VIP=0, the model knows it is a Basic member.You saved computer memory and saved your model from a math error!
+ 
+
+
+1. What is Character Encoding? 
+Computers do not understand letters; they only understand binary numbers (0s and 1s) grouped into bytes (a byte is 8 bits, representing a number from 0 to 255).
+Encoding is the translation guide or dictionary that maps a specific character (like 'A' or 'ñ') to a specific byte number.Decoding is reading those byte numbers back into human-readable text.
+2. The Three Common Encodings 
+utf-8: The modern global standard. It uses a flexible number of bytes per character. It supports almost every language and emoji on earth. Always try this first.
+cp1252 / Windows-1252: A legacy encoding used by default on older Western Windows systems. It is also referred to as the text charmap.
+latin-1: A basic encoding that covers Western European languages. It maps exactly 1 character to exactly 1 byte (0 to 255). Because every possible byte sequence is valid in latin-1, it will never throw a decode error, making it a great fallback option.
+

@@ -1,0 +1,8 @@
+From intro:
+print(numpy.__version__) to get the version of numpy 
+print(type(array)) -> <class 'numpy.ndarray'>, nd = N - dimensional
+
+From MulitDimentional Arrays:
+print(array.ndim) -> returns number of dimensions in an array. ndim = number of dimensions 
+each of the lists of 2d, 3d, and so on, they need a consistent number of elements with each other
+concatenation means, the process of linking or joining two or more sequential objects (such as text strings, lists, or datasets) together end-to-end to create a single, combined object. 

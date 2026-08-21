@@ -1,0 +1,237 @@
+/* .is used for class */
+/* #is used for id */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .pBar {
+    background-color: red;
+    width: 97vw;
+    margin: -12px;
+    padding: 1vh;
+    transition-timing-function: steps(8, end);
+    transition-property: inherit;
+} */
+
+.pBar {
+    background-color: black;
+    width: 97vw;
+    margin: -12px;
+    padding: 1vh;
+    animation: pAnimate 1s 1;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+
+@keyframes pAnimate {
+    1% {
+        background-color: red;
+        width: 1vw;
+    }
+
+    25% {
+        width: 25vw;
+        background-color: red;
+    }
+
+    50% {
+        background-color: red;
+        width: 50vw;
+    }
+
+    75% {
+        background-color: red;
+        width: 75vw;
+    }
+
+    98% {
+        background-color: red;
+        width: 97vw;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    body {
+        background-color: rgba(177, 177, 9, 0.415);
+    }
+}
+
+html {
+    background-color: rgb(0, 0, 0);
+    /* background-position: center;
+    background-blend-mode: difference;
+    background-repeat: no-repeat; */
+    background-size: cover;
+    border: 2px solid rgb(212, 202, 202);
+    border-style: dashed double;
+    border-radius: 20px;
+    background-origin: border-box;
+    background-attachment: local;
+    background-position: center;
+    /* margin: 1px 2px 3px 4px; */
+    margin: 2px 4px;
+    padding: 10px;
+
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    background-color: rgba(136, 140, 10, 0.21);
+    color: rgb(255, 255, 255);
+    padding: 10px 4px;
+    margin: 4px -10px;
+    border: 2px solid rgb(250, 217, 210);
+
+}
+
+.nav {
+    font-size: 5vw;
+    list-style: circle inside url('car.jpg');
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 0px 16px;
+    padding: 9px 56px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-size: 25px;
+
+}
+
+h1 {
+    color: rgba(250, 235, 215, 0.604);
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    font-size: 50px;
+    background-image: url('images2.jpg');
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+main {
+    box-sizing: content-box;
+    margin: 4px;
+    padding: 0px;
+    position: relative;
+    z-index: 3;
+}
+
+.About {
+    color: white;
+    background-color: rgba(2, 55, 76, 0.427);
+    box-sizing: border-box;
+    border: 2px solid rgba(244, 240, 240, 0.526);
+    padding: 10px;
+    margin: 6px 0px 9px -1px;
+    text-align: center;
+
+}
+
+.bio {
+    font-size: 20px;
+}
+
+.big {
+    color: white;
+    background-color: rgba(2, 55, 76, 0.427);
+    box-sizing: border-box;
+    border: 2px solid rgba(244, 240, 240, 0.526);
+    padding: 10px;
+    margin: 6px 0px 9px -1px;
+    text-align: center;
+
+}
+
+.img {
+    /* display: inline-block; */
+    /* translate: -399px;
+    scale: 1.2 1.2 2; */
+    rotate: 40 11.5 1 56deg;
+    float: left;
+}
+
+.img2 {
+    /* display: inline-block;
+    translate: -399px;
+    scale: 1.2 1.2 2; */
+    rotate: -332 109.5 7 57deg;
+    float: right;
+}
+
+.ma2 {
+    background-color: rgba(22, 17, 17, 0.878);
+    color: black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 220px;
+}
+
+.img4 {
+    display: inline-block;
+    animation: ma2Animate 1s infinite;
+}
+
+@keyframes ma2Animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.foter {
+    background-color: rgba(74, 131, 10, 0.319);
+    text-align: center;
+    margin: 2px 4px;
+    padding: 10px;
+    /* font-size: 27px; */
+    color: white;
+    font-family: ubuntu, 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    /* min-height: 250px; */
+}
+
+.ma {
+    background-color: rgba(211, 58, 15, 0.319);
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: 50px;
+    /* grid-row-gap: 20px;
+    grid-column-gap: 10px; */
+    grid-gap: 26px 7px;
+    margin: 3px;
+    padding: 19px;
+
+}
+
+#sdg {
+    grid-column: 1 / 5;
+}
+
+#shg {
+    grid-column: 1/span 6;
+}
+
+.box {
+    color: white;
+    box-sizing: border-box;
+    border: 2px solid rgba(244, 240, 240, 0.526);
+}

@@ -1,0 +1,49 @@
+Matplotlib,  is Python's most popular open-source data visualization library. It creates static, animated, and interactive graphs. 
+- pylot a module found within Matplotlib, provides a user friendly interface for plotting. 
+
+Topics needed to know:
+Variables, types, user input, to -- > lists, sets, tuples, dictionaries.
+
+# While importing a library or module as a given name or Variable, the Variable is called alias
+
+
+FROM plot customization:
+markers: 
+"." point, "," pixel, "o" circle, "v" triangle_down, "^" triangle_up, "<" triangle_left, ">" triangle_right, "1" tri_down, "2" tri_up, "3" tri_left, "4" tri_right, "8" octagon, "s" square, "p" pentagon, "P" plus(filled), "*" star, "h" hexagon1, "H" hexagon2, "+" filled, "x" x 
+
+Labels;
+- When to use: Every single plot to provide context, define axes, and identify multiple data series.
+- plt.title("My Plot Title")
+- plt.xlabel("X-Axis Label")
+- plt.ylabel("Y-Axis Label")
+- plt.plot(x, y, label="Series 1")
+- plt.legend() # Displays the label
+
+Grid Lines;
+- When to use: When users need to read exact data point values or trace coordinates across a large plot space easily.
+- plt.grid(True, linestyle="--", alpha=0.6) # Custom dashed lines with transparency
+
+Bar Chart; 
+- What to use: plt.bar() (vertical) or plt.barh() (horizontal).
+- When to use: Comparing discrete, categorical groups or tracking a metric over distinct intervals (e.g., sales per month).
+- plt.bar(categories, values, color="skyblue")
+
+Pie Chart;
+- When to use: Illustrating simple part-to-whole percentages or proportions across static categories (best with <= 5 categories).
+- plt.pie(sizes, labels=labels, autopct="%1.1f%%") # autopct formats the slice percentage
+
+Scatter graphs;
+- When to use: Spotting correlations, trends, cluster patterns, or outliers between two continuous variables.
+- plt.scatter(x, y, color="purple", marker="o")
+
+Histogram;
+- When to use: Visualizing the frequency distribution and density shape of a single continuous dataset grouped into ranges (bins).
+- plt.hist(data, bins=10, edgecolor="black") # edgecolor keeps bars cleanly separated
+
+
+Subplots;
+- When to use: Comparing multiple charts side-by-side or stacked cleanly within a single visual window panel.
+- fig, axes = plt.subplots(1, 2) # Creates 1 row, 2 columns of plots
+axes[0].plot(x, y)             # Plots on the first chart
+axes[1].bar(categories, values) # Plots on the second chart
+plt.tight_layout()             # Fixes any overlapping labels automatically

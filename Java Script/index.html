@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta charset="ISO-8859-1"> -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="exer.js" type="module"></script>
+  <script src="started.js" type="module"></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato&family=Rajdhani:wght@700&display=swap');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+  </style>
+  <!-- <object data="inde2.html"></object> -->
+  <title>EXERCISES</title>
+</head>
+<!-- ☐ (0x2610 in Unicode hexadecimal [HTML decimal: &#9744;]): an empty (unchecked) checkbox
+☑ (0x2611 [HTML decimal: &#9745;]): the checked version of the previous checkbox
+✓ (0x2713 [HTML decimal: &#10003;])
+✔ (0x2714 [HTML decimal: &#10004;]) -->
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>Contact</li>
+        <li>About</li>
+      </ul>
+    </nav>
+  </header><br>
+  <main>
+    <hr>
+    <h3>Joke</h3>
+    <div class="joke hoke" id="joId"><b> A SAMPLE JOKE</b></div>
+    <br>
+    <hr><br>
+    <h3>
+      <p>'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''``````<br>// The world runs on
+        power. Everything is determined by the superior power. You are weak. That is why you lose. <br>
+        // // when will the war end, when someone wins <br>
+        // Running away isn't the same thing as losing. You only truly lose by dying. So as long you're alive, you
+        win.<br>
+        // You can never tell a good seed from a bad seed until it blossoms.
+        //<br>``````'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''</p>
+    </h3>
+
+    <!-- Guess A Number -->
+    <div id="gng">
+      <p>Do you want to play a Guess-Num-Game. Click Play to start!</p><button id='gngk'
+        class="button">Play</button><button id="newG" class="button" onclick="location.reload()">New Game</button>
+    </div>
+    <br>
+    <hr><br>
+
+    <!-- Snake, Water And Gun -->
+    <hr><br>
+    <div id="sgw">
+      <p>Do you want to play Snake-Water-Gun? Click Play to start!</p><button class="button" id="sgwButt">Play</button>
+    </div><br>
+    <hr><br>
+
+
+    <!-- <a href="https://www.google.com">BOOKMARK GOOGLE</a><br>
+      <a href="https://www.w3schools.com/jsref/met_document_removeeventlistener.asp">BOOKMARK w3schools</a> -->
+    <button class="button" id="bookmark1">BOOKMARK GOOGLE</button>
+    <button class="button" id="bookmark2">BOOKMARK w3schools</button>
+    </div>
+    <hr><br>
+
+    <!-- BULB -->
+    <div id="bulb">HEY
+      <div id="clock"></div>
+    </div>
+    <hr><br>
+
+    <div id="text">
+    </div><br>
+    <script type="text/javascript">
+      function goFullscreen(id) {
+        // Get the element that we want to take into fullscreen mode
+        let element = document.getElementById(id);
+
+        // These function will not exist in the browsers that don't support fullscreen mode yet, 
+        // so we'll have to check to see if they're available before calling them.
+
+        if (element.mozRequestFullScreen) {
+          // This is how to go into fullscren mode in Firefox
+          // Note the "moz" prefix, which is short for Mozilla.
+          element.mozRequestFullScreen();
+        } else if (element.webkitRequestFullScreen) {
+          // This is how to go into fullscreen mode in Chrome and Safari
+          // Both of those browsers are based on the Webkit project, hence the same prefix.
+          element.webkitRequestFullScreen();
+        }
+      }
+    </script>
+
+    <button class="button" onclick="goFullscreen('text'); return false">Click To Go Fullscreen! </button><br><br>
+    <hr><br>
+
+    <!-- Dictionary Fetcher -->
+
+    <p>We have only two words meaning nature and animal <br>so u have to write only nature and animal</p>
+    <div id="ra"><input type="search" width="383px" id="inP" placeholder="TYPE word for its meaning"><button
+        class="button" id="butoText">Search </button> </div>
+    <div id="raTexs"> <br></div>
+    <hr><br>
+
+    <!-- QUOTE FETCHER  -->
+
+    <h3>Anime Quotes</h3>
+    <div id="chapter10">
+      <button class="button" id="quoteButton" onclick="location.reload()">New Quotes</button><br>
+      <br>
+      <div id="quote"></div>
+    </div><br>
+    <hr><br>
+
+    <!-- NOTE APP -->
+
+    <h3>TODO LIST APP</h3>
+    <h4>Save Or Delete Your Own Written Notes Anytime</h4>
+    <div class="NoteSaver">
+      <input type="text" id="saveNoteTitle" placeholder="Write Or Delete Note Title"><br>
+      <input type="text" id="saveNote" placeholder="Write Or Delete Your Note"><br>
+      <button class="button" type="submit" id="SaveNoteId">Save</button><button class="button"
+        id="DeletButton">Delete</button><button class="button" id="allTodo">All TODOs</button>
+    </div>
+    <div id="Saved"></div>
+    <div id="Deleted"></div>
+    <div id="ShowAllTodo"><br></div><br>
+    <br>
+    <hr><br>
+
+    <!-- Password Generator -->
+
+
+
+    <br>
+    <hr><br>
+    <h3>Login</h3>
+    <div class="class">
+      <input type="email" placeholder="Type Your Email" id="TypeEmail"><br>
+      <input type="text" placeholder="Create Your Password" id="CreatePass"><br>
+      <input id="generatePass" type="checkbox" name="accept">
+      <!-- &#9744; </button>  -->
+      Generate a Strong
+      Password<br>
+      <button class="button">Submit</button><br>
+      <br>
+      <hr><br>
+
+      <!-- Alarm Clock -->
+
+      <br>
+      <div class="setAlarm">
+        <b>
+          <h3>Set Your Alarm:</h3>
+        </b>
+        <div class="setAlarm2">
+          <input id="inputTime" type="time"><button class='button' id="setAlarmButton">Save</button>
+          <div class="alarmAlert">
+            <audio controls id="audio1" src="mixkit-morning-clock-alarm-1003.wav" type="audio/ogg" hidden>
+            </audio>
+            <audio controls id="audio2" src="mixkit-digital-clock-digital-alarm-buzzer-992.wav" type="audio/mpeg" hidden></audio>
+            <audio controls id="audio3" src="mixkit-retro-game-emergency-alarm-1000.wav" type="audio/mpeg" hidden>
+            </audio>
+            <div id="ringtone">
+              <select id="Audios">
+                <option value="audio1">Audio 1</option>
+                <option value="audio2">Audio 2</option>
+                <option value="audio3">Audio 3</option>
+              </select>
+              <button id="OptionButt" class="button">Save</button>
+            </div>
+          </div>
+        </div>
+      </div><br>
+
+      <div class="displayAlarm">
+        <b>All Alarms</b>
+        <div id="card2">
+
+        </div>
+        <!-- <input type="date">
+      <input type="datetime-local">
+    <input type="email">
+    <input type="file">
+    <input type="hidden">
+    <input type="image"> 
+    <input type="month">
+    <input type="number">
+    <input type="password">
+    <input type="radio">
+    <input type="range">
+    <input type="search">
+    <input type="submit">
+    <input type="text">
+    <input type="week"> 
+    <input type="tel">
+    <input type="reset"> 
+    <input type="url">-->
+        <!-- <label class="switch">
+      <input type="checkbox">
+      <span class="slider round"></span>
+    </label> -->
+      </div>
+      <div class="displayTime">
+        <div class="clock"><b>Clock</b></div>
+        <div id="time"></div>
+        <!-- https://replit.com/@Abhicoder07/Alarm-Clock?v=1 -->
+      </div><br>
+
+
+      <hr><br>
+
+  </main>
+
+  <footer>
+    COPYRIGHT ACT 2023. EVERYTHING IS SAMPLE TEXT, ALL RIGHTS ARE RESERVED
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+Athlete_ID,Country,Sport,Medal_Type
+1001,Germany,Curling,Bronze
+1002,Austria,Curling,Bronze
+1003,Slovenia,Alpine Skiing,Bronze
+1004,Norway,Biathlon,Bronze
+1005,Austria,Biathlon,Bronze
+1006,Slovenia,Alpine Skiing,Bronze
+1007,Germany,Figure Skating,Silver
+1008,Finland,Snowboard,Silver
+1009,Sweden,Figure Skating,Bronze
+1010,Switzerland,Curling,Silver
+1011,United States,Figure Skating,Silver
+1012,Canada,Curling,Gold
+1013,United States,Curling,Gold
+1014,South Korea,Speed Skating,nan
+1015,Norway,Speed Skating,Bronze
+1016,Austria,Figure Skating,Silver
+1017,Netherlands,Alpine Skiing,nan
+1018,Canada,Speed Skating,Silver
+1019,Italy,Curling,Bronze
+1020,Finland,Figure Skating,Bronze
+1021,Norway,Alpine Skiing,Silver
+1022,Germany,Alpine Skiing,Gold
+1023,United States,Alpine Skiing,Gold
+1024,Japan,Alpine Skiing,Silver
+1025,United States,Alpine Skiing,Bronze
+1026,China,Snowboard,Gold
+1027,Germany,Speed Skating,Silver
+1028,Norway,Snowboard,Silver
+1029,Austria,Curling,Gold
+1030,Japan,Snowboard,Silver
+1031,South Korea,Curling,nan
+1032,Japan,Alpine Skiing,Silver
+1033,Sweden,Biathlon,Gold
+1034,Austria,Curling,Gold
+1035,United States,Snowboard,Gold
+1036,Sweden,Speed Skating,Silver
+1037,Netherlands,Figure Skating,Bronze
+1038,Sweden,Alpine Skiing,nan
+1039,Germany,Speed Skating,Gold
+1040,Austria,Alpine Skiing,Silver
+1041,Finland,Curling,Silver
+1042,United States,Biathlon,Bronze
+1043,Norway,Curling,Bronze
+1044,United States,Curling,Gold
+1045,Germany,Alpine Skiing,nan
+1046,Germany,Snowboard,Silver
+1047,Japan,Figure Skating,Gold
+1048,Italy,Speed Skating,Bronze
+1049,South Korea,Figure Skating,Gold
+1050,Norway,Biathlon,Bronze
+1051,Germany,Biathlon,Gold
+1052,Slovenia,Biathlon,Silver
+1053,Norway,Figure Skating,Gold
+1054,Austria,Biathlon,nan
+1055,Norway,Snowboard,Bronze
+1056,Japan,Biathlon,Silver
+1057,Slovenia,Speed Skating,Gold
+1058,Austria,Speed Skating,Gold
+1059,Canada,Speed Skating,Gold
+1060,Japan,Snowboard,Bronze
+1061,Japan,Figure Skating,Silver
+1062,Netherlands,Biathlon,Gold
+1063,Netherlands,Figure Skating,Gold
+1064,Norway,Curling,Gold
+1065,Slovenia,Curling,Bronze
+1066,Japan,Biathlon,Gold
+1067,United States,Alpine Skiing,Gold
+1068,Finland,Curling,Silver
+1069,Germany,Figure Skating,Bronze
+1070,Canada,Speed Skating,Silver
+1071,Sweden,Biathlon,Silver
+1072,Canada,Curling,Gold
+1073,Sweden,Curling,Gold
+1074,Austria,Speed Skating,Bronze
+1075,United States,Speed Skating,nan
+1076,Italy,Alpine Skiing,Silver
+1077,Norway,Curling,Silver
+1078,Germany,Curling,Bronze
+1079,France,Speed Skating,Gold
+1080,Switzerland,Snowboard,Bronze
+1081,United States,Biathlon,Bronze
+1082,South Korea,Figure Skating,Gold
+1083,Italy,Curling,Silver
+1084,Finland,Speed Skating,Silver
+1085,United States,Alpine Skiing,nan
+1086,Germany,Snowboard,Bronze
+1087,United States,Speed Skating,Gold
+1088,France,Alpine Skiing,Bronze
+1089,South Korea,Figure Skating,Bronze
+1090,Norway,Speed Skating,Gold
+1091,Netherlands,Curling,Bronze
+1092,China,Figure Skating,Silver
+1093,Italy,Biathlon,Bronze
+1094,Norway,Speed Skating,Silver
+1095,Netherlands,Speed Skating,Gold
+1096,Slovenia,Alpine Skiing,Gold
+1097,Finland,Curling,Bronze
+1098,Netherlands,Speed Skating,Silver
+1099,South Korea,Alpine Skiing,Gold
+1100,Germany,Biathlon,Bronze
+1101,Finland,Figure Skating,Silver
+1102,United States,Alpine Skiing,Gold
+1103,Finland,Curling,Silver
+1104,Austria,Biathlon,Bronze
+1105,Canada,Snowboard,Silver
+1106,Japan,Figure Skating,Bronze
+1107,Japan,Figure Skating,nan
+1108,Japan,Curling,Bronze
+1109,Netherlands,Biathlon,Gold
+1110,Austria,Snowboard,Silver
+1111,Finland,Curling,Gold
+1112,Japan,Speed Skating,Silver
+1113,Austria,Alpine Skiing,Gold
+1114,Italy,Biathlon,Gold
+1115,China,Curling,Gold
+1116,Norway,Speed Skating,Gold
+1117,Canada,Curling,Bronze
+1118,Germany,Alpine Skiing,Bronze
+1119,Finland,Speed Skating,Bronze
+1120,Italy,Figure Skating,Bronze
+1121,Italy,Biathlon,Gold
+1122,Netherlands,Biathlon,Gold
+1123,Norway,Figure Skating,Silver
+1124,China,Figure Skating,Silver
+1125,South Korea,Biathlon,nan
+1126,South Korea,Snowboard,Bronze
+1127,United States,Speed Skating,nan
+1128,Canada,Figure Skating,Bronze
+1129,Austria,Snowboard,Gold
+1130,Slovenia,Alpine Skiing,Gold
+1131,Germany,Speed Skating,Silver
+1132,Austria,Curling,Gold
+1133,Switzerland,Biathlon,Gold
+1134,Switzerland,Curling,Gold
+1135,Netherlands,Biathlon,Gold
+1136,Sweden,Biathlon,Gold
+1137,Japan,Speed Skating,Silver
+1138,United States,Figure Skating,Silver
+1139,Germany,Snowboard,Silver
+1140,United States,Biathlon,Bronze
+1141,Japan,Biathlon,Bronze
+1142,United States,Snowboard,Silver
+1143,United States,Figure Skating,nan
+1144,Germany,Snowboard,Silver
+1145,France,Snowboard,Silver
+1146,Germany,Snowboard,nan
+1147,Netherlands,Curling,Silver
+1148,France,Biathlon,Bronze
+1149,Japan,Biathlon,Gold
+1150,Japan,Figure Skating,Gold

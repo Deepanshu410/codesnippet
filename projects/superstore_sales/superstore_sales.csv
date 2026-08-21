@@ -1,0 +1,501 @@
+Order_Date,Category,Region,Sales,Profit
+2025-07-08,Office Supplies,West,612.02,191.19
+2025-04-10,Furniture,South,31.07,3.77
+2025-10-21,Office Supplies,East,21.61,
+2025-09-10,Clothing,North,202.2,46.13
+2025-07-07,Electronics,South,199.27,-20.4
+2025-02-24,Furniture,East,317.59,-19.13
+2025-11-25,Electronics,South,403.14,111.35
+2025-09-22,Clothing,North,684.13,
+2025-09-21,Furniture,West,65.16,
+2025-01-02,Furniture,North,69.89,18.43
+2025-08-06,Furniture,East,177.73,-31.65
+2025-09-28,Furniture,East,532.53,164.6
+2025-07-27,Office Supplies,West,19.26,0.53
+2025-07-07,Office Supplies,North,186.74,88.83
+2025-11-23,Electronics,North,334.1,-49.38
+2025-03-22,Electronics,West,79.48,-15.11
+2025-02-10,Office Supplies,North,196.26,88.01
+2025-03-03,Electronics,West,129.37,-17.23
+2025-08-15,Office Supplies,West,212.98,89.67
+2025-09-12,Furniture,South,296.08,57.11
+2025-06-28,Office Supplies,North,258.03,
+2025-08-10,Office Supplies,North,85.48,13.33
+2025-01-13,Office Supplies,North,165.24,-9.56
+2025-02-14,Office Supplies,South,45.16,20.36
+2025-12-06,Electronics,East,131.96,-6.21
+2025-08-19,Office Supplies,West,339.47,145.04
+2025-08-21,Electronics,North,218.65,-43.65
+2025-08-13,Furniture,West,162.75,22.68
+2025-04-06,Clothing,West,582.62,15.29
+2025-09-25,Clothing,North,23.42,-0.52
+2025-03-22,Furniture,South,81.59,-0.05
+2025-08-12,Furniture,East,115.88,-20.5
+2025-06-09,Office Supplies,East,41.31,5.89
+2025-09-12,Office Supplies,West,26.86,1.58
+2025-08-28,Electronics,West,829.95,65.71
+2025-09-16,Electronics,West,151.94,43.62
+2025-05-27,Office Supplies,West,13.35,2.12
+2025-02-08,Office Supplies,West,574.43,44.98
+2025-05-31,Electronics,South,93.43,-11.26
+2025-04-22,Furniture,South,61.9,-4.8
+2025-05-20,Clothing,North,65.38,-8.82
+2025-05-27,Clothing,South,51.83,-0.25
+2025-04-26,Office Supplies,West,446.23,154.36
+2025-08-15,Clothing,West,467.65,104.99
+2025-12-04,Electronics,South,737.36,-0.93
+2025-03-09,Office Supplies,West,1049.06,-80.62
+2025-05-15,Electronics,West,284.47,72.47
+2025-01-22,Clothing,North,166.41,25.99
+2025-10-10,Furniture,East,109.88,46.64
+2025-11-13,Electronics,East,217.19,58.26
+2025-06-21,Clothing,South,302.68,-51.3
+2025-08-21,Electronics,East,502.7,29.72
+2025-07-07,Electronics,North,170.93,34.29
+2025-09-13,Office Supplies,North,107.26,42.45
+2025-11-19,Furniture,North,110.4,43.16
+2025-05-07,Clothing,East,200.91,99.06
+2025-10-26,Furniture,East,280.01,80.62
+2025-11-02,Office Supplies,North,80.34,7.54
+2025-06-22,Electronics,West,153.22,23.15
+2025-05-23,Clothing,West,111.1,-18.27
+2025-06-02,Furniture,West,182.68,-31.94
+2025-11-01,Furniture,North,375.19,
+2025-09-21,Furniture,South,99.32,-11.03
+2025-12-31,Clothing,West,205.04,-28.76
+2025-05-24,Furniture,South,250.47,-25.84
+2025-11-15,Clothing,East,88.0,31.38
+2025-11-14,Furniture,South,67.77,-4.81
+2025-01-01,Electronics,West,115.17,-9.06
+2025-08-25,Clothing,East,29.72,-2.14
+2025-10-05,Clothing,North,277.8,52.24
+2025-03-27,Office Supplies,West,176.96,
+2025-08-26,Furniture,West,19.42,-3.33
+2025-12-07,Electronics,West,13.46,4.5
+2025-01-10,Electronics,East,123.78,9.77
+2025-05-27,Clothing,East,70.46,-13.34
+2025-10-07,Electronics,West,224.99,-19.34
+2025-12-06,Furniture,North,413.78,101.58
+2025-06-28,Furniture,South,216.17,26.11
+2025-02-12,Clothing,South,353.43,90.49
+2025-08-30,Electronics,West,31.25,-5.85
+2025-03-31,Electronics,East,86.83,33.99
+2025-04-24,Office Supplies,North,147.05,41.91
+2025-09-06,Electronics,West,275.66,99.91
+2025-04-09,Electronics,North,178.11,36.18
+2025-07-09,Furniture,North,309.59,11.94
+2025-12-21,Clothing,North,237.79,75.6
+2025-12-08,Electronics,North,150.74,57.06
+2025-03-17,Office Supplies,North,20.99,9.89
+2025-05-24,Clothing,East,235.88,32.5
+2025-02-22,Office Supplies,West,89.7,24.29
+2025-08-11,Electronics,South,29.13,4.26
+2025-08-27,Office Supplies,South,167.89,49.37
+2025-01-07,Furniture,East,202.58,-26.18
+2025-07-13,Clothing,East,111.05,47.12
+2025-11-17,Electronics,East,873.09,54.12
+2025-10-19,Electronics,South,486.53,104.27
+2025-04-01,Office Supplies,South,310.25,59.22
+2025-08-30,Office Supplies,South,123.99,-2.78
+2025-12-27,Furniture,West,35.3,-4.16
+2025-11-08,Office Supplies,North,64.23,5.15
+2025-06-22,Electronics,East,334.01,
+2025-08-17,Electronics,West,160.03,79.23
+2025-11-01,Office Supplies,West,25.69,-2.15
+2025-05-24,Office Supplies,North,207.53,43.38
+2025-12-24,Office Supplies,West,647.39,-103.26
+2025-03-31,Clothing,North,74.97,-5.12
+2025-08-16,Clothing,East,71.83,3.75
+2025-07-31,Furniture,South,163.62,2.73
+2025-03-23,Clothing,North,38.59,-5.66
+2025-10-13,Electronics,South,513.1,-72.9
+2025-03-06,Electronics,North,15.34,0.97
+2025-08-05,Office Supplies,North,104.56,33.95
+2025-04-09,Office Supplies,North,374.44,47.96
+2025-07-16,Electronics,West,25.67,7.3
+2025-06-14,Furniture,South,172.13,58.23
+2025-01-01,Office Supplies,North,65.17,-3.68
+2025-10-15,Electronics,West,61.92,
+2025-04-28,Office Supplies,West,14.49,2.15
+2025-08-10,Furniture,West,348.98,166.67
+2025-08-17,Electronics,West,140.8,13.29
+2025-09-09,Furniture,South,57.9,-6.05
+2025-11-04,Furniture,East,212.47,40.02
+2025-04-16,Electronics,West,492.64,4.22
+2025-11-26,Electronics,North,41.82,18.76
+2025-07-24,Clothing,West,19.39,4.55
+2025-05-31,Office Supplies,West,93.58,16.48
+2025-12-26,Office Supplies,South,39.89,9.92
+2025-06-09,Electronics,South,424.8,68.25
+2025-04-02,Furniture,South,18.35,-1.5
+2025-01-12,Furniture,North,169.13,29.44
+2025-03-14,Furniture,North,150.0,42.49
+2025-04-17,Office Supplies,North,242.81,38.4
+2025-04-23,Electronics,North,74.84,27.27
+2025-01-14,Clothing,South,163.83,73.2
+2025-01-14,Office Supplies,East,134.18,43.37
+2025-12-29,Office Supplies,South,242.42,94.81
+2025-01-15,Electronics,East,128.63,22.23
+2025-09-30,Office Supplies,North,50.25,9.79
+2025-07-31,Furniture,East,35.51,15.03
+2025-08-16,Furniture,South,219.29,29.76
+2025-03-24,Furniture,South,283.64,28.98
+2025-11-11,Electronics,East,469.81,105.84
+2025-07-17,Electronics,North,64.16,-8.26
+2025-12-16,Clothing,West,390.52,-54.08
+2025-02-09,Office Supplies,North,26.73,4.47
+2025-03-16,Clothing,South,463.85,94.25
+2025-03-03,Furniture,East,69.66,-5.6
+2025-10-27,Office Supplies,South,179.55,-0.72
+2025-01-20,Furniture,East,258.23,-15.58
+2025-10-20,Office Supplies,North,198.64,0.41
+2025-06-27,Office Supplies,West,87.32,18.84
+2025-06-17,Electronics,South,169.22,-9.95
+2025-02-07,Electronics,South,238.83,79.33
+2025-08-24,Furniture,South,540.51,206.17
+2025-02-04,Electronics,West,950.55,-53.7
+2025-09-24,Clothing,East,19.86,6.89
+2025-01-05,Furniture,West,45.74,-3.89
+2025-02-11,Furniture,East,486.9,10.39
+2025-06-28,Clothing,West,125.65,8.02
+2025-05-25,Electronics,South,125.52,25.64
+2025-02-08,Office Supplies,East,166.86,72.51
+2025-01-15,Furniture,South,207.62,7.15
+2025-06-06,Electronics,West,280.54,56.45
+2025-09-11,Electronics,North,67.13,21.53
+2025-04-28,Furniture,East,146.24,48.0
+2025-07-03,Office Supplies,South,384.75,-42.61
+2025-06-22,Clothing,North,143.25,12.36
+2025-10-26,Office Supplies,South,246.8,44.4
+2025-05-14,Clothing,South,649.2,25.82
+2025-05-21,Office Supplies,East,598.56,-55.46
+2025-06-20,Furniture,North,69.15,21.32
+2025-11-24,Clothing,West,248.57,110.8
+2025-02-20,Electronics,West,103.82,-15.76
+2025-10-29,Clothing,North,529.58,61.21
+2025-01-01,Furniture,East,51.24,19.79
+2025-11-05,Office Supplies,South,188.94,14.98
+2025-03-04,Clothing,North,10.93,0.37
+2025-12-13,Furniture,South,522.69,65.85
+2025-06-01,Office Supplies,South,130.46,-13.23
+2025-10-12,Clothing,East,16.89,0.3
+2025-12-03,Furniture,East,12.64,3.34
+2025-07-08,Electronics,West,117.1,-16.42
+2025-07-30,Office Supplies,North,84.19,6.58
+2025-05-24,Furniture,North,206.15,13.28
+2025-07-13,Furniture,North,308.8,36.22
+2025-05-12,Electronics,East,147.44,49.5
+2025-06-11,Electronics,South,594.18,36.43
+2025-12-15,Office Supplies,South,43.96,13.24
+2025-09-12,Electronics,South,68.58,
+2025-04-07,Furniture,North,331.8,-24.89
+2025-10-15,Clothing,East,337.27,165.97
+2025-08-11,Office Supplies,West,111.23,29.77
+2025-03-26,Furniture,South,210.61,
+2025-01-02,Electronics,South,184.95,17.57
+2025-07-14,Electronics,West,91.85,34.68
+2025-08-10,Clothing,West,205.71,17.81
+2025-12-30,Electronics,West,59.57,28.72
+2025-05-08,Furniture,East,143.66,61.23
+2025-08-25,Furniture,South,153.68,49.05
+2025-06-03,Electronics,East,217.16,20.67
+2025-05-26,Electronics,East,73.58,-13.77
+2025-06-14,Furniture,West,147.87,-22.62
+2025-01-27,Furniture,West,56.24,-10.82
+2025-11-05,Furniture,South,191.97,42.3
+2025-05-02,Electronics,North,118.52,8.08
+2025-06-30,Furniture,West,647.03,-45.9
+2025-06-13,Furniture,North,108.63,0.23
+2025-04-21,Office Supplies,West,177.13,23.6
+2025-08-27,Furniture,North,142.23,-1.57
+2025-12-31,Office Supplies,West,20.56,3.03
+2025-10-23,Electronics,East,138.58,5.69
+2025-02-08,Electronics,North,243.21,25.39
+2025-04-12,Furniture,North,10.47,5.0
+2025-01-17,Office Supplies,North,29.21,12.91
+2025-08-04,Office Supplies,North,50.95,9.14
+2025-07-17,Office Supplies,North,294.62,90.41
+2025-12-31,Furniture,North,218.07,62.2
+2025-10-09,Clothing,East,187.47,93.65
+2025-05-17,Furniture,South,16.91,4.87
+2025-08-11,Clothing,East,119.55,42.65
+2025-09-30,Office Supplies,South,86.87,33.03
+2025-05-11,Clothing,South,174.5,23.86
+2025-01-15,Clothing,East,268.03,-41.34
+2025-06-10,Clothing,North,226.74,71.76
+2025-06-19,Furniture,West,63.04,-11.53
+2025-04-06,Office Supplies,South,51.03,3.51
+2025-11-14,Office Supplies,East,96.38,32.48
+2025-09-23,Electronics,West,423.78,207.17
+2025-06-26,Office Supplies,South,157.85,49.34
+2025-10-20,Furniture,West,77.72,
+2025-11-01,Electronics,North,890.0,88.5
+2025-07-17,Clothing,West,636.61,228.28
+2025-08-14,Office Supplies,East,193.66,83.78
+2025-03-04,Clothing,West,62.71,28.84
+2025-11-09,Office Supplies,North,35.64,-5.96
+2025-09-18,Electronics,East,312.45,14.09
+2025-08-29,Office Supplies,North,156.07,34.04
+2025-08-04,Furniture,South,293.96,84.43
+2025-03-30,Office Supplies,East,205.07,66.34
+2025-11-19,Furniture,North,29.19,12.09
+2025-06-19,Electronics,North,19.08,7.57
+2025-05-04,Clothing,North,170.08,-23.66
+2025-02-06,Clothing,South,267.05,39.29
+2025-02-09,Electronics,West,25.84,10.23
+2025-02-09,Furniture,North,483.99,96.76
+2025-05-27,Office Supplies,North,72.13,29.94
+2025-09-26,Clothing,North,44.24,-3.88
+2025-07-07,Electronics,North,237.97,55.45
+2025-01-23,Office Supplies,North,420.9,
+2025-03-23,Clothing,South,61.92,27.0
+2025-08-12,Furniture,North,151.64,-29.65
+2025-12-20,Office Supplies,North,174.13,-20.71
+2025-03-15,Clothing,North,312.69,-39.12
+2025-02-06,Furniture,South,109.57,-8.15
+2025-08-07,Clothing,West,242.88,-37.04
+2025-01-22,Clothing,East,256.59,33.74
+2025-10-12,Office Supplies,East,420.42,202.41
+2025-01-29,Office Supplies,South,190.48,
+2025-02-27,Furniture,South,144.14,
+2025-04-09,Furniture,East,136.43,62.9
+2025-10-15,Office Supplies,South,326.76,93.32
+2025-12-03,Furniture,West,222.56,-1.94
+2025-12-23,Clothing,West,272.81,119.13
+2025-09-14,Furniture,South,74.1,36.22
+2025-10-08,Furniture,South,283.96,-16.97
+2025-03-01,Furniture,South,137.55,24.8
+2025-06-23,Electronics,North,309.76,105.21
+2025-01-24,Office Supplies,South,328.71,1.95
+2025-07-25,Office Supplies,West,328.45,45.02
+2025-11-15,Furniture,West,66.88,12.77
+2025-03-05,Electronics,North,188.45,19.46
+2025-04-05,Clothing,North,25.04,1.87
+2025-09-24,Office Supplies,North,292.99,136.78
+2025-06-09,Clothing,North,65.43,
+2025-08-30,Furniture,East,57.23,2.42
+2025-03-18,Furniture,North,28.39,1.29
+2025-06-23,Furniture,South,38.48,7.59
+2025-12-26,Office Supplies,East,18.41,4.96
+2025-12-25,Office Supplies,South,16.42,7.48
+2025-12-14,Electronics,East,557.3,258.11
+2025-03-25,Furniture,South,347.29,-49.98
+2025-05-07,Furniture,East,316.34,43.22
+2025-03-28,Furniture,East,27.03,-4.26
+2025-08-26,Electronics,North,201.29,6.1
+2025-11-03,Clothing,North,321.84,84.03
+2025-11-08,Furniture,East,221.84,7.24
+2025-04-03,Office Supplies,West,54.51,15.05
+2025-08-01,Office Supplies,North,377.08,-29.44
+2025-12-30,Electronics,West,120.85,5.09
+2025-04-15,Clothing,West,166.75,26.65
+2025-09-19,Electronics,East,143.37,58.98
+2025-05-11,Office Supplies,South,76.77,3.95
+2025-01-08,Clothing,North,274.19,-29.59
+2025-01-02,Furniture,South,210.23,12.82
+2025-11-12,Electronics,East,145.56,-3.92
+2025-08-19,Furniture,West,183.22,48.34
+2025-08-17,Office Supplies,North,707.43,
+2025-10-30,Electronics,West,192.62,14.96
+2025-04-03,Furniture,South,126.69,4.01
+2025-06-20,Furniture,North,122.74,-3.18
+2025-04-17,Electronics,West,99.02,6.49
+2025-02-13,Electronics,West,138.73,54.23
+2025-11-30,Office Supplies,South,173.35,30.84
+2025-04-29,Office Supplies,North,561.68,-96.87
+2025-06-28,Electronics,North,28.54,
+2025-10-26,Furniture,West,872.95,
+2025-07-03,Electronics,East,733.11,151.08
+2025-05-06,Furniture,South,229.84,-23.5
+2025-12-07,Clothing,East,55.09,14.95
+2025-03-27,Clothing,North,127.31,51.9
+2025-04-24,Electronics,South,779.17,48.31
+2025-11-24,Furniture,West,409.92,138.54
+2025-05-22,Clothing,North,193.56,88.77
+2025-07-11,Electronics,North,32.54,
+2025-03-14,Electronics,North,114.48,46.88
+2025-04-12,Office Supplies,North,33.11,8.45
+2025-10-06,Furniture,South,339.89,113.39
+2025-03-30,Office Supplies,North,35.61,6.45
+2025-11-12,Electronics,West,198.24,38.54
+2025-04-12,Electronics,North,167.79,18.64
+2025-09-22,Office Supplies,West,230.65,53.89
+2025-04-27,Furniture,West,156.41,21.18
+2025-10-27,Electronics,West,42.27,7.13
+2025-12-30,Office Supplies,West,169.44,54.7
+2025-10-30,Electronics,North,53.58,-10.43
+2025-11-20,Office Supplies,North,222.66,14.71
+2025-02-21,Furniture,South,31.39,4.4
+2025-04-16,Electronics,South,161.97,33.47
+2025-12-11,Furniture,East,73.66,6.59
+2025-06-08,Office Supplies,South,402.39,144.8
+2025-02-05,Clothing,North,177.55,-3.62
+2025-06-22,Furniture,South,348.29,21.4
+2025-08-02,Office Supplies,North,194.07,72.47
+2025-05-01,Furniture,North,218.03,-16.93
+2025-10-20,Clothing,West,97.21,-3.32
+2025-12-11,Clothing,South,391.0,105.57
+2025-06-24,Clothing,East,130.21,27.43
+2025-05-30,Clothing,East,138.07,
+2025-05-18,Office Supplies,South,196.84,35.96
+2025-11-16,Electronics,North,22.05,-2.22
+2025-06-16,Electronics,East,113.61,11.33
+2025-03-09,Office Supplies,South,93.43,34.86
+2025-08-20,Furniture,West,74.09,-10.7
+2025-03-11,Clothing,South,112.56,6.4
+2025-01-05,Clothing,North,156.4,-23.88
+2025-03-08,Clothing,North,73.26,15.75
+2025-08-03,Electronics,East,90.99,24.44
+2025-04-26,Furniture,North,1089.87,122.55
+2025-10-14,Clothing,East,642.24,-49.64
+2025-02-24,Office Supplies,West,115.35,11.06
+2025-05-24,Electronics,West,228.67,81.59
+2025-12-26,Office Supplies,West,741.2,-137.85
+2025-08-19,Electronics,North,232.68,-31.4
+2025-05-22,Electronics,West,151.38,-13.4
+2025-09-15,Office Supplies,East,93.61,6.24
+2025-06-03,Electronics,North,82.92,6.46
+2025-12-08,Office Supplies,East,513.63,75.95
+2025-06-15,Clothing,East,149.09,11.63
+2025-05-14,Office Supplies,East,430.7,175.57
+2025-06-12,Office Supplies,West,351.56,9.06
+2025-09-13,Furniture,South,94.96,45.86
+2025-04-05,Furniture,North,140.54,2.76
+2025-01-25,Furniture,West,299.47,-23.24
+2025-03-20,Furniture,West,140.11,21.62
+2025-05-21,Clothing,West,685.24,70.41
+2025-06-09,Clothing,East,75.08,29.73
+2025-01-05,Furniture,East,220.08,-20.6
+2025-09-10,Furniture,North,21.98,10.91
+2025-05-29,Office Supplies,North,122.54,-9.87
+2025-09-09,Furniture,East,31.3,8.91
+2025-11-04,Clothing,South,61.99,-2.3
+2025-04-26,Clothing,West,386.8,118.76
+2025-01-14,Clothing,North,97.46,16.36
+2025-03-03,Electronics,East,673.86,-17.52
+2025-11-10,Furniture,East,70.17,23.31
+2025-08-01,Electronics,North,88.16,33.85
+2025-07-07,Electronics,North,18.71,1.12
+2025-07-15,Electronics,West,71.85,-6.86
+2025-08-09,Clothing,West,220.94,81.19
+2025-04-15,Furniture,East,317.44,134.74
+2025-02-17,Clothing,North,582.35,213.27
+2025-10-04,Furniture,East,17.84,7.69
+2025-03-20,Office Supplies,East,107.67,12.39
+2025-03-28,Office Supplies,West,438.19,-55.22
+2025-04-19,Electronics,West,27.72,8.36
+2025-08-20,Office Supplies,West,17.24,2.69
+2025-01-28,Furniture,West,96.07,32.88
+2025-01-08,Furniture,North,169.53,64.65
+2025-08-11,Furniture,South,27.15,12.96
+2025-02-18,Clothing,North,755.86,201.92
+2025-04-29,Clothing,East,24.35,
+2025-09-15,Furniture,East,330.61,1.64
+2025-08-14,Electronics,West,285.72,105.21
+2025-06-02,Office Supplies,North,536.45,-22.94
+2025-08-01,Furniture,West,108.42,-9.26
+2025-05-02,Office Supplies,East,12.56,6.21
+2025-01-18,Office Supplies,South,384.83,170.58
+2025-08-26,Furniture,North,776.99,251.54
+2025-08-23,Clothing,West,49.06,8.91
+2025-08-01,Clothing,North,270.35,-33.64
+2025-03-29,Office Supplies,East,58.04,8.94
+2025-01-03,Furniture,South,293.92,94.17
+2025-10-08,Office Supplies,South,243.52,100.17
+2025-05-09,Office Supplies,West,133.81,-25.89
+2025-11-16,Office Supplies,North,75.12,-4.83
+2025-08-19,Office Supplies,North,171.97,53.85
+2025-03-27,Furniture,North,104.08,18.43
+2025-05-01,Furniture,East,367.57,-70.68
+2025-03-11,Electronics,West,89.18,-8.54
+2025-01-20,Electronics,East,101.87,11.62
+2025-11-06,Furniture,South,39.66,10.48
+2025-02-26,Electronics,East,203.3,9.93
+2025-01-03,Electronics,South,424.71,66.71
+2025-09-11,Clothing,East,174.87,33.66
+2025-11-01,Furniture,East,194.33,-35.75
+2025-11-10,Office Supplies,East,247.76,79.82
+2025-08-16,Office Supplies,West,155.66,16.83
+2025-04-23,Electronics,South,63.8,3.83
+2025-10-28,Office Supplies,South,1291.09,585.1
+2025-07-17,Furniture,West,147.1,-11.07
+2025-11-21,Clothing,South,279.4,129.98
+2025-04-23,Electronics,East,91.45,-16.61
+2025-02-20,Furniture,North,249.25,112.34
+2025-12-15,Furniture,South,122.3,50.25
+2025-12-22,Clothing,North,124.25,56.68
+2025-05-09,Clothing,East,270.35,39.88
+2025-12-30,Clothing,East,21.8,-0.92
+2025-12-30,Office Supplies,West,223.98,
+2025-09-27,Furniture,West,74.52,-0.53
+2025-07-24,Clothing,West,294.92,33.86
+2025-12-04,Electronics,North,393.59,-65.91
+2025-01-07,Electronics,North,162.04,14.22
+2025-05-23,Office Supplies,East,273.69,50.31
+2025-05-22,Electronics,East,361.9,127.17
+2025-08-06,Furniture,North,69.29,17.87
+2025-06-10,Electronics,South,83.84,38.81
+2025-10-16,Clothing,South,67.79,26.81
+2025-06-18,Electronics,North,403.42,123.43
+2025-04-08,Electronics,North,199.81,-8.33
+2025-03-07,Electronics,North,592.64,234.08
+2025-03-17,Clothing,West,133.3,43.26
+2025-07-11,Clothing,East,338.4,41.1
+2025-06-03,Electronics,West,93.04,38.19
+2025-08-01,Furniture,West,156.54,-8.86
+2025-06-17,Clothing,West,69.01,31.93
+2025-09-11,Furniture,North,15.51,-2.39
+2025-06-16,Clothing,North,109.1,39.15
+2025-11-03,Electronics,South,105.74,36.26
+2025-10-24,Clothing,East,29.75,1.48
+2025-08-26,Electronics,West,329.81,25.45
+2025-09-20,Furniture,West,248.08,88.14
+2025-08-08,Electronics,South,464.97,-38.04
+2025-04-17,Clothing,West,458.84,118.38
+2025-05-17,Furniture,East,696.88,278.62
+2025-01-21,Furniture,South,693.02,64.06
+2025-02-28,Furniture,West,1177.11,571.9
+2025-10-08,Office Supplies,North,174.09,29.45
+2025-09-22,Furniture,East,105.29,50.69
+2025-12-30,Furniture,East,257.74,5.17
+2025-10-13,Electronics,West,146.33,55.57
+2025-06-12,Electronics,West,359.71,-46.6
+2025-10-06,Electronics,South,129.7,42.05
+2025-09-28,Furniture,North,378.33,49.15
+2025-09-05,Electronics,West,278.87,-35.01
+2025-09-04,Office Supplies,East,397.22,-16.28
+2025-10-21,Office Supplies,South,246.93,39.23
+2025-05-22,Electronics,South,298.07,25.58
+2025-07-26,Electronics,South,339.42,-53.84
+2025-04-01,Electronics,East,232.18,44.65
+2025-07-09,Furniture,East,61.43,4.12
+2025-10-08,Furniture,South,33.47,3.21
+2025-03-24,Furniture,East,687.72,-76.19
+2025-06-22,Office Supplies,East,250.34,97.04
+2025-10-02,Office Supplies,North,82.7,31.47
+2025-10-13,Furniture,West,253.27,
+2025-11-05,Electronics,West,76.77,28.96
+2025-03-09,Office Supplies,East,281.89,-46.88
+2025-04-30,Furniture,North,90.22,3.45
+2025-06-07,Office Supplies,West,64.76,23.07
+2025-05-29,Office Supplies,West,321.33,64.7
+2025-07-20,Clothing,North,192.75,-23.04
+2025-03-06,Clothing,South,363.55,
+2025-06-23,Office Supplies,South,27.16,11.88
+2025-08-20,Electronics,South,456.1,50.34
+2025-11-07,Furniture,West,320.99,79.52
+2025-12-08,Clothing,West,107.07,15.14
+2025-03-13,Clothing,East,138.07,67.47
+2025-09-25,Furniture,East,68.71,3.66
+2025-04-03,Office Supplies,West,64.59,8.32
+2025-12-06,Office Supplies,West,136.88,15.5
+2025-07-09,Electronics,North,11.1,-2.16
+2025-09-02,Clothing,West,77.07,9.56
+2025-09-22,Furniture,East,79.48,35.94
+2025-02-28,Electronics,North,350.98,60.41
+2025-05-27,Electronics,South,146.06,42.59
+2025-01-19,Office Supplies,East,46.11,3.36
+2025-08-28,Clothing,North,260.38,58.72
+2025-06-02,Furniture,South,625.97,190.91
+2025-06-24,Office Supplies,East,69.58,-11.02
+2025-03-23,Furniture,East,228.9,82.46
